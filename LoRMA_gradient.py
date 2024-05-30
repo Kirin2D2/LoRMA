@@ -4,6 +4,8 @@
 ### where dL/dM^ is matrix in R^{mxn}
 ### and dM^/dA = B^T
 
+import lorma_predict
+
 # Given M, O, A, B return dL/dA, dL/dB.
 #
 # parameters
@@ -22,7 +24,7 @@
 # dL/dB:    k x n 2-D numpy array
 
 def lorma_grad(M, O, A, B):
-    dL = 2 * O * (lorma(A, B) - M) / np.sum(O)
+    dL = 2 * O * (lorma_predict.lorma(A, B) - M) / np.sum(O)
 
     dA = dL @ np.transpose(B)
     dB = np.transpose(A) @ dL
