@@ -1,9 +1,9 @@
 # Given M, O, params, run gradient descent to compute the low-dimensional
 # approximation A, B and losses, the list of approximation errors
 
-import LoRMA_MSE
-import LoRMA_init
-import LoRMA_gradient
+import LoRMA_MSE.py
+import LoRMA_init.py
+import LoRMA_gradient.py
 
 # parameters
 # M:        m x n 2-D numpy array
