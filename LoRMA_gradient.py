@@ -4,7 +4,7 @@
 ### where dL/dM^ is matrix in R^{mxn}
 ### and dM^/dA = B^T
 
-import lorma_predict
+import lorma_predict.py
 
 # Given M, O, A, B return dL/dA, dL/dB.
 #
