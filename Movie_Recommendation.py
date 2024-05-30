@@ -4,6 +4,7 @@
 # Imports for loading and splitting data
 from sklearn.model_selection import train_test_split
 import pandas as pd
+import LoRMA_GD
 
 # Download the MovieLens dataset into a pandas dataframe and display it
 movie_ratings_path = 'https://raw.githubusercontent.com/ameet-1997/Machine-Learning/master/MovieLens/ratings.csv'
