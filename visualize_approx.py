@@ -1,5 +1,7 @@
 # visualize a random matrix from the same distribution we used for initialization
 
+import matplotlib.pyplot as plt
+import numpy as np
 import LoRMA_init.py
 
 def show_mat(X, str, ind):
