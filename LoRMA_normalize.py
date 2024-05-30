@@ -2,6 +2,8 @@
 ## normalize M such that sum over (i,j) in omega of M[i,j] = 0 and 1/|omega| * sum over (i,j) in omega of M[i,j]^2 = 1
 ## mean over observed entries is 0 and std dev is 1
 
+#include LoRMA_MSE
+
 # Given M, O, return the normalized version of M. Does not mutate parameters.
 #
 # parameters
