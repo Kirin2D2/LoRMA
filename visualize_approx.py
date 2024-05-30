@@ -1,5 +1,7 @@
 # visualize a random matrix from the same distribution we used for initialization
 
+import LoRMA_init
+
 def show_mat(X, str, ind):
     plt.subplot(1,3,ind)
     plt.imshow(X, cmap='hot')
