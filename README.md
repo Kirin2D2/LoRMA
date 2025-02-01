@@ -1,5 +1,5 @@
 ### LoRMA
-Low Rank Matrix Approximation algorithm 
+Low Rank Matrix Approximation algorithm \\
 Sample use case: Movie_Recommendations.py
 
 
